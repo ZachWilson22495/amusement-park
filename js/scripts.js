@@ -6,18 +6,30 @@ $(document).ready(function() {
     if (heightInput <= 44) {
       $('.every-height').show();
       $('.short-height').show();
-      $('.medium-height').hide();
-      $('.tall-height').hide();
+      $('.medium-height').show();
+      $('.tall-height').show();
+      $('.every-height').addClass("highlight");
+      $('.short-height').addClass("highlight");
+      $('.medium-height').removeClass("highlight");
+      $('.tall-height').removeClass("highlight");
     } else if (heightInput <= 55) {
       $('.medium-height').show();
       $('.short-height').show();
       $('.every-height').show();
-      $('.tall-height').hide();
+      $('.tall-height').show();
+      $('.every-height').addClass("highlight");
+      $('.short-height').addClass("highlight");
+      $('.medium-height').addClass("highlight");
+      $('.tall-height').addClass("highlight");
     } else {
       $('.every-height').show();
       $('.medium-height').show();
       $('.tall-height').show();
-      $('.short-height').hide();
+      $('.short-height').show();
+      $('.every-height').addClass("highlight");
+      $('.short-height').removeClass("highlight");
+      $('.medium-height').addClass("highlight");
+      $('.tall-height').addClass("highlight");
     }
   });
 });

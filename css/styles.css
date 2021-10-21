@@ -17,3 +17,8 @@ body {
 .every-height {
   display: none;
 }
+
+.highlight {
+  font-weight: 700;
+  background-color: gold;
+}
