@@ -2,6 +2,18 @@ body {
   background-color: rgb(178, 231, 213);
 }
 
-.height-unknown {
+.short-height {
+  display: none;
+}
+
+.medium-height {
+  display: none;
+}
+
+.tall-height {
+  display: none;
+}
+
+.every-height {
   display: none;
 }
