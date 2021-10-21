@@ -20,7 +20,7 @@ $(document).ready(function() {
       $('.every-height').addClass("highlight");
       $('.short-height').addClass("highlight");
       $('.medium-height').addClass("highlight");
-      $('.tall-height').addClass("highlight");
+      $('.tall-height').removeClass("highlight");
     } else {
       $('.every-height').show();
       $('.medium-height').show();
